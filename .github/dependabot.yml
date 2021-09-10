@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'daily'
+      time: '22:00'
+    open-pull-requests-limit: 20
+    assignees:
+      - 'cogni8r'
+    labels:
+      - 'ci'
+    commit-message:
+      prefix: 'ci:'
