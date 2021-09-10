@@ -24,17 +24,14 @@ function getConfig(isMonorepository) {
                     "changelogFile": "CHANGELOG.md"
                 }
             ],
+            ...npmPlugins,
+            "@semantic-release/github",
             [
                 "@semantic-release/git",
                 {
                     "assets": ["CHANGELOG.md"]
                 }
-            ],
-            ["@semantic-release/exec", {
-                "prepareCmd": "npx replace '0.0.0-development' '${nextRelease.version}' ./packages -r --include=\"package.json\""
-            }],
-            ...npmPlugins,
-            "@semantic-release/github"
+            ]
         ]
     };
 }
@@ -86,5 +83,3 @@ function getFoldersOnly(folderContent) {
 }
 
 module.exports = getConfig;
-
-console.log(getConfig(false));
