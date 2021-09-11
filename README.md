@@ -1,6 +1,6 @@
 # Semantic-release config
 
-**Gears** projects config for [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) configuration file for personal projects.
+[Semantic Release](https://semantic-release.gitbook.io/semantic-release/) configuration file for personal projects.
 
 ## Usage
 
