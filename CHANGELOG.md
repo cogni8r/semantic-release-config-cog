@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/cogni8r/semantic-release-config-cog/compare/v1.0.0...v1.0.1) (2022-01-29)
+
+
+### Bug Fixes
+
+* fix the installation of unnecessary packages ([122b55a](https://github.com/cogni8r/semantic-release-config-cog/commit/122b55afe8aa44fbfdb6463773bf5af898c4d694))
+
 # 1.0.0 (2021-09-10)
 
 
